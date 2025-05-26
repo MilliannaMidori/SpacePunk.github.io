@@ -1,0 +1,155 @@
+body {
+    background-image: url('../images/background.png');
+    background-size: cover;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+}
+
+header {
+    height: 5vh;
+}
+
+.wrapper {
+    display: flex;
+    flex-direction: column;
+    min-height: 95vh;
+}
+
+main {
+    flex: 1;
+}
+
+footer {
+    text-align: center;
+    padding: 1em 0;
+    background: #222;
+    color: #ccc;
+    height: 50px;
+}
+
+.main-content {
+    background-color: white;
+    border-radius: 20px;
+    opacity: 0.7;
+    width: 1500px;
+    border: 1px solid black;
+    margin: 0 auto;
+    margin-top: 35px;
+    padding: 15px;
+    max-height: 85vh;
+    overflow: auto;
+}
+
+
+h1 {
+    color: #9250a6;
+    font-size: 50px;
+    text-shadow: 2px 2px 2px #caa9d4;
+}
+
+h2 {
+    color: #9250a6;
+    font-size: 40px;
+    text-shadow: 2px 2px 2px #caa9d4;
+}
+
+h3 {
+    color: #9250a6;
+    font-size: 30px;
+    text-shadow: 2px 2px 2px #caa9d4;
+}
+
+h4 {
+    color: #9250a6;
+    font-size: 20px;
+    text-shadow: 2px 2px 2px #caa9d4;
+}
+
+em {
+    color: #9250a6;
+    font-size: 20px;
+    text-shadow: 2px 2px 2px #caa9d4;
+    margin-bottom: 10px;
+}
+
+.center {
+    margin: 0 auto;
+}
+
+.btn {
+    width: 150px;
+    background-color: #671180 !important;
+    border-color: #c273d9 !important;
+}
+
+.w-75 {
+    width: 75% !important;
+}
+
+.w-25 {
+    width: 25% !important;
+}
+
+.main-image {
+    max-width: 300px;
+    float: inline-end;
+}
+
+.d-flex {
+    display: flex;
+}
+
+nav {
+    z-index: 1000;
+}
+
+
+/* on small screens, make it full-width */
+@media (max-width: 1024px) {
+    .main-content {
+        width: 90%;
+        margin-top: 35px;
+    }
+
+    .main-image {
+        max-width: 380px;
+    }
+	
+	.splash-image {
+		max-width: 340px;
+	}
+
+}
+/* on small screens, make it full-width */
+@media (max-width: 600px) {
+    .main-content {
+        width: 100%;
+        margin-top: 35px;
+    }
+
+    .main-image {
+        max-width: 380px;
+        margin: 0 auto;
+        float: none;
+    }
+	
+	.splash-image {
+		max-width: 340px;
+	}
+
+}
+@media (max-width: 350px) {
+    .main-content {
+        width: 100%;
+        margin-top: 35px;
+    }
+
+    .main-image {
+        max-width: 310px;
+        margin-bottom: 10px;
+    }
+	
+	.splash-image {
+		max-width: 340px;
+	}
+
