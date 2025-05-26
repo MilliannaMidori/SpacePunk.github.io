@@ -221,7 +221,7 @@ document.addEventListener('DOMContentLoaded', () => {
     const headerHTML = `
     <nav class="navbar navbar-expand-xs navbar-dark bg-dark">
       <div class="container-fluid">
-        <a class="navbar-brand" href="#">
+        <a class="navbar-brand" href="index.html">
 			<img src="sp.png" alt="Logo" width="35" height="35" class="d-inline-block align-text-top">
 			SpacePunk
 		</a>
