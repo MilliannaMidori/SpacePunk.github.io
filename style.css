@@ -117,4 +117,9 @@ nav {
         margin: 0 auto;
         float: none;
     }
+	
+	.splash-image {
+		max-width: 410px;
+	}
+
 }
